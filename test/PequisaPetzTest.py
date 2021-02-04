@@ -10,7 +10,7 @@ class PesquisaPetzTest(unittest.TestCase):
 
     def setUp(self):
 
-        self.driver = webdriver.Firefox(executable_path='D:\\PythonWeb\\venv\\geckodriver.exe')
+        self.driver = webdriver.Firefox(executable_path='F:\\Python\\PythonWeb\\venv\\geckodriver.exe')
         self.driver.implicitly_wait(10)
         self.driver.get('https://www.petz.com.br/')
 
